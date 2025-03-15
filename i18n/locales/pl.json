@@ -1,0 +1,73 @@
+{
+  "appName": "Kalkulator Materiałów Pro",
+  "welcome": "Witamy w Material App - wybierz swoją aktywność",
+  "init_pl": {
+    "title": "Material App",
+    "text": "Optymalizuj swoje kalkulacje budowlane z precyzją i profesjonalizmem"
+  },
+  "home": {
+    "painting": "Malowanie",
+    "flooring": "Podłogi",
+    "drywall": "Płyty G-K",
+    "settings": "Ustawienia"
+  },
+  "calculator": {
+    "dimensions": {
+      "length": "Długość (m)",
+      "width": "Szerokość (m)",
+      "height": "Wysokość (m)"
+    },
+    "painting": {
+      "title": "Kalkulator Malowania",
+      "type": "Rodzaj Farby",
+      "types": {
+        "matte": "Matowa",
+        "gloss": "Połysk"
+      },
+      "mode": "Tryb Obliczania",
+      "modes": {
+        "full": "Cały Pokój",
+        "walls": "Tylko Ściany"
+      }
+    },
+    "flooring": {
+      "title": "Kalkulator Podłóg",
+      "type": "Rodzaj Podłogi",
+      "types": {
+        "hardwood": "Drewno",
+        "laminate": "Laminat",
+        "tile": "Płytki"
+      },
+      "wasteFactor": "Współczynnik odpadu: 6%"
+    },
+    "drywall": {
+      "title": "Kalkulator Płyt G-K",
+      "thickness": "Grubość",
+      "thicknesses": {
+        "half": "1/2 cala",
+        "fiveEighths": "5/8 cala"
+      }
+    }
+  },
+  "settings": {
+    "language": "Język",
+    "theme": "Motyw",
+    "units": "Jednostki",
+    "themes": {
+      "light": "Jasny",
+      "dark": "Ciemny"
+    },
+    "units": {
+      "metric": "Metryczne",
+      "imperial": "Imperialne"
+    }
+  },
+  "common": {
+    "calculate": "Oblicz",
+    "reset": "Reset",
+    "save": "Zapisz",
+    "total": "Suma",
+    "area": "Powierzchnia",
+    "cost": "Koszt"
+  }
+}

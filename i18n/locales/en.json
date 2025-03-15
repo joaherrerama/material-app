@@ -1,0 +1,73 @@
+{
+  "appName": "Material Calculator Pro",
+  "welcome": "Welcome to Material App - choose your activity",
+  "init":{
+    "title": "Material App",
+    "text": "Streamline your construction estimates with precision and professionalism"
+  },
+  "home": {
+    "painting": "Painting",
+    "flooring": "Flooring",
+    "drywall": "Drywall",
+    "settings": "Settings"
+  },
+  "calculator": {
+    "dimensions": {
+      "length": "Length (m)",
+      "width": "Width (m)",
+      "height": "Height (m)"
+    },
+    "painting": {
+      "title": "Painting Calculator",
+      "type": "Paint Type",
+      "types": {
+        "matte": "Matte",
+        "gloss": "Gloss"
+      },
+      "mode": "Calculation Mode",
+      "modes": {
+        "full": "Full Room",
+        "walls": "Walls Only"
+      }
+    },
+    "flooring": {
+      "title": "Flooring Calculator",
+      "type": "Flooring Type",
+      "types": {
+        "hardwood": "Hardwood",
+        "laminate": "Laminate",
+        "tile": "Tile"
+      },
+      "wasteFactor": "Waste Factor: 6%"
+    },
+    "drywall": {
+      "title": "Drywall Calculator",
+      "thickness": "Thickness",
+      "thicknesses": {
+        "half": "1/2 inch",
+        "fiveEighths": "5/8 inch"
+      }
+    }
+  },
+  "settings": {
+    "language": "Language",
+    "theme": "Theme",
+    "units": "Units",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "units": {
+      "metric": "Metric",
+      "imperial": "Imperial"
+    }
+  },
+  "common": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "save": "Save",
+    "total": "Total",
+    "area": "Area",
+    "cost": "Cost"
+  }
+}

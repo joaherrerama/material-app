@@ -1,0 +1,15 @@
+{
+  "paint": {
+    "matte": 12.99,
+    "gloss": 15.99
+  },
+  "flooring": {
+    "hardwood": 45.99,
+    "laminate": 25.99,
+    "tile": 35.99
+  },
+  "drywall": {
+    "half": 15.99,
+    "fiveEighths": 18.99
+  }
+}

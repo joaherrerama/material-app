@@ -1,0 +1,73 @@
+{
+  "appName": "Calculadora de Materiales Pro",
+  "welcome": "Bienvenido a Material App - elige tu actividad",
+  "init_es": {
+    "title": "Material App",
+    "text": "Optimice sus estimaciones de construcción con precisión y profesionalismo"
+  },
+  "home": {
+    "painting": "Pintura",
+    "flooring": "Suelos",
+    "drywall": "Pared Seca",
+    "settings": "Ajustes"
+  },
+  "calculator": {
+    "dimensions": {
+      "length": "Largo (m)",
+      "width": "Ancho (m)",
+      "height": "Alto (m)"
+    },
+    "painting": {
+      "title": "Calculadora de Pintura",
+      "type": "Tipo de Pintura",
+      "types": {
+        "matte": "Mate",
+        "gloss": "Brillante"
+      },
+      "mode": "Modo de Cálculo",
+      "modes": {
+        "full": "Habitación Completa",
+        "walls": "Solo Paredes"
+      }
+    },
+    "flooring": {
+      "title": "Calculadora de Suelos",
+      "type": "Tipo de Suelo",
+      "types": {
+        "hardwood": "Madera Dura",
+        "laminate": "Laminado",
+        "tile": "Baldosa"
+      },
+      "wasteFactor": "Factor de Desperdicio: 6%"
+    },
+    "drywall": {
+      "title": "Calculadora de Pared Seca",
+      "thickness": "Espesor",
+      "thicknesses": {
+        "half": "1/2 pulgada",
+        "fiveEighths": "5/8 pulgada"
+      }
+    }
+  },
+  "settings": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "units": "Unidades",
+    "themes": {
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "units": {
+      "metric": "Métrico",
+      "imperial": "Imperial"
+    }
+  },
+  "common": {
+    "calculate": "Calcular",
+    "reset": "Restablecer",
+    "save": "Guardar",
+    "total": "Total",
+    "area": "Área",
+    "cost": "Costo"
+  }
+}

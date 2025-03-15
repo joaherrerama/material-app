@@ -1,0 +1,73 @@
+{
+  "appName": "Material Kalkulator Pro",
+  "welcome": "Willkommen bei der Material App - wählen Sie Ihre Aktivität",
+  "init": {
+    "title": "Material App",
+    "text": "Optimieren Sie Ihre Baukalkulationen mit Präzision und Professionalität"
+  },
+  "home": {
+    "painting": "Malerei",
+    "flooring": "Bodenbelag",
+    "drywall": "Trockenbau",
+    "settings": "Einstellungen"
+  },
+  "calculator": {
+    "dimensions": {
+      "length": "Länge (m)",
+      "width": "Breite (m)",
+      "height": "Höhe (m)"
+    },
+    "painting": {
+      "title": "Farbkalkulator",
+      "type": "Farbart",
+      "types": {
+        "matte": "Matt",
+        "gloss": "Glänzend"
+      },
+      "mode": "Berechnungsmodus",
+      "modes": {
+        "full": "Ganzer Raum",
+        "walls": "Nur Wände"
+      }
+    },
+    "flooring": {
+      "title": "Bodenbelagkalkulator",
+      "type": "Bodenbelagsart",
+      "types": {
+        "hardwood": "Hartholz",
+        "laminate": "Laminat",
+        "tile": "Fliesen"
+      },
+      "wasteFactor": "Verschnittfaktor: 6%"
+    },
+    "drywall": {
+      "title": "Trockenbauwandkalkulator",
+      "thickness": "Dicke",
+      "thicknesses": {
+        "half": "1/2 Zoll",
+        "fiveEighths": "5/8 Zoll"
+      }
+    }
+  },
+  "settings": {
+    "language": "Sprache",
+    "theme": "Design",
+    "units": "Einheiten",
+    "themes": {
+      "light": "Hell",
+      "dark": "Dunkel"
+    },
+    "units": {
+      "metric": "Metrisch",
+      "imperial": "Imperial"
+    }
+  },
+  "common": {
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "save": "Speichern",
+    "total": "Gesamt",
+    "area": "Fläche",
+    "cost": "Kosten"
+  }
+}

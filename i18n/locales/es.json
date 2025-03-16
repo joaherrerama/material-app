@@ -1,6 +1,9 @@
 {
-  "appName": "Calculadora de Materiales Pro",
-  "welcome": "Bienvenido a Material App - elige tu actividad",
+  "appName": "Material App",
+  "dashboard": {
+    "title": "Aplicación de Materiales",
+    "text": "Seleccione una actividad:"
+  },
   "init_es": {
     "title": "Material App",
     "text": "Optimice sus estimaciones de construcción con precisión y profesionalismo"

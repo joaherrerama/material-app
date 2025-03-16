@@ -1,9 +1,11 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 import { useTheme } from 'react-native-paper';
-import { Chrome as Home, Calculator, Settings, FileText } from 'lucide-react-native';
+import { HomeIcon, Calculator, Settings, FileText } from 'lucide-react-native';
+import TabBar  from '../../components/TabBar';
 import { View, StyleSheet } from 'react-native';
 import t from '@/i18n/config';
+import { theme } from '@/constants/theme';
 
 function IconWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -18,71 +20,30 @@ export default function TabLayout() {
 
   return (
     <Tabs
-      screenOptions={{
-      headerShown: false,
-      tabBarStyle: {
-        backgroundColor: theme.colors.surface,
-        borderTopWidth: 0,
-        elevation: 8,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: -2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 4,
-      },
-      tabBarActiveTintColor: '#95A5A6',
-      tabBarInactiveTintColor: '#95A5A6',
-      }}>
+      tabBar={(props: any) => <TabBar {...props} />}
+      screenOptions={
+        { headerShown: false }
+      }
+    >
       <Tabs.Screen
-      name="index"
-      options={{
-        title: t.t('welcome'),
-        tabBarIcon: ({ color, size }) => (
-        <IconWrapper>
-          <Home size={size} color={color} />
-        </IconWrapper>
-        ),
-      }}
-      />
-      <Tabs.Screen
-      name="calculator"
-      options={{
-        title: t.t('calculate'),
-        tabBarIcon: ({ color, size }) => (
-        <IconWrapper>
-          <Calculator size={size} color={color} />
-        </IconWrapper>
-        ),
-      }}
-      />
-      <Tabs.Screen
-      name="results"
-      options={{
-        title: t.t('results'),
-        tabBarIcon: ({ color, size }) => (
-        <IconWrapper>
-          <FileText size={size} color={color} />
-        </IconWrapper>
-        ),
-      }}
-      />
-      <Tabs.Screen
-      name="settings"
-      options={{
-        title: t.t('settings'),
-        tabBarIcon: ({ color, size }) => (
-        <IconWrapper>
-          <Settings size={size} color={color} />
-        </IconWrapper>
-        ),
-      }}
-      />
+            name="index"
+            options={{
+                title: "Home"
+            }}
+        />
+        <Tabs.Screen
+            name="settings"
+            options={{
+                title: "Profile"
+            }}
+        />
     </Tabs>
   );
 }
 
 const styles = StyleSheet.create({
   iconWrapper: {
-    backgroundColor: '#2C3E50',
+    backgroundColor: theme.colors.background,
     padding: 8,
     borderRadius: 8,
   },

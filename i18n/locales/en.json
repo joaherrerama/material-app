@@ -1,6 +1,9 @@
 {
-  "appName": "Material Calculator Pro",
-  "welcome": "Welcome to Material App - choose your activity",
+  "appName": "Material App",
+  "dashboard": {
+    "title":"Material App",
+    "text": "select an activity:"
+  },
   "init":{
     "title": "Material App",
     "text": "Streamline your construction estimates with precision and professionalism"

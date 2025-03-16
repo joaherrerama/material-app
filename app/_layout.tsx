@@ -8,7 +8,8 @@ import { SplashScreen } from 'expo-router';
 import { theme } from '@/constants/theme';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '@/i18n/config';
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView } from 'react-native';
+import Navbar from '@/components/NavBar';
 
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
@@ -39,13 +40,18 @@ export default function RootLayout() {
 
   return (
     <I18nextProvider i18n={i18n}>
-      <PaperProvider theme={theme}>
-        <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="welcome" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        </Stack>
-        <StatusBar style="auto" />
-      </PaperProvider>
-    </I18nextProvider>
+    <PaperProvider theme={theme}>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Navbar />
+        <View style={{ flex: 1 }}>
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="welcome" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          </Stack>
+        </View>
+      </SafeAreaView>
+      <StatusBar style="auto" />
+    </PaperProvider>
+  </I18nextProvider>
   );
 }

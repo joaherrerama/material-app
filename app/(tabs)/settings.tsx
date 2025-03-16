@@ -3,6 +3,7 @@ import { View, StyleSheet, ScrollView, Image } from 'react-native';
 import { Text, TextInput, Button } from 'react-native-paper';
 import { useProfileStore } from '@/stores/profileStore';
 import * as ImagePicker from 'expo-image-picker';
+import { globalStyles } from '@/constants/theme';
 
 export default function SettingsScreen() {
   const { profile, updateProfile } = useProfileStore();
@@ -21,9 +22,11 @@ export default function SettingsScreen() {
   };
 
   return (
-    <ScrollView style={styles.container}>
-      <View style={styles.content}>
-        <Text variant="headlineMedium" style={styles.title}>Professional Settings</Text>
+    <ScrollView style={globalStyles.container}>
+      <View style={globalStyles.content}>
+        <Text variant="headlineMedium" style={[globalStyles.title, { textAlign: 'center' }]}>
+          Account Settings
+        </Text>
 
         <View style={styles.logoSection}>
           {profile?.logo ? (
@@ -66,19 +69,6 @@ export default function SettingsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#ECF0F1',
-  },
-  content: {
-    padding: 16,
-    paddingTop: 48,
-  },
-  title: {
-    marginBottom: 24,
-    color: '#2C3E50',
-    fontFamily: 'Inter-Bold',
-  },
   logoSection: {
     alignItems: 'center',
     marginBottom: 24,

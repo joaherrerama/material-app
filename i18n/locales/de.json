@@ -1,6 +1,9 @@
 {
-  "appName": "Material Kalkulator Pro",
-  "welcome": "Willkommen bei der Material App - wählen Sie Ihre Aktivität",
+  "appName": "Material App",
+  "dashboard": {
+    "title": "Material App",
+    "text": "Wählen Sie eine Aktivität aus:"
+  },
   "init": {
     "title": "Material App",
     "text": "Optimieren Sie Ihre Baukalkulationen mit Präzision und Professionalität"
